@@ -1,0 +1,10 @@
+com\Guru99\qa\base\BaseTest.class
+com\Guru99\qa\pages\MobilePage.class
+com\Guru99\qa\pages\ShoppingCartPage.class
+com\Guru99\qa\pages\ComparePage.class
+com\Guru99\qa\util\TestUtil.class
+com\Guru99\qa\pages\WishListPage.class
+com\Guru99\qa\pages\MyAccountPage.class
+com\Guru99\qa\pages\Accountpage.class
+com\Guru99\qa\pages\TVPage.class
+com\Guru99\qa\pages\HomePage.class
