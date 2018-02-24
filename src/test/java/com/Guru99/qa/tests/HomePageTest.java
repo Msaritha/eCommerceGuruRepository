@@ -32,7 +32,7 @@ public class HomePageTest extends BaseTest {
 		String title = hp.validateTitle();
 		Assert.assertEquals(title, TestUtil.TITLE_HOMEPAGE);
 	}
-	@Test(priority=2)
+	@Test(priority=2,enabled=false)
 	public void logoGuru99Test() {
 		boolean flag = hp.validateLogo();
 		Assert.assertTrue(flag);
