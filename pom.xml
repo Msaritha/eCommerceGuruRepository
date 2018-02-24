@@ -2,42 +2,37 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>eCommerceGuru99Test</groupId>
-  <artifactId>eCommerceGuru99</artifactId>
+  <groupId>Guru99eCommerceTestAutomation</groupId>
+  <artifactId>Guru99eCommerceTest</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>eCommerceGuru99</name>
+  <name>Guru99eCommerceTest</name>
   <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
 
   <dependencies>
-     <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-java</artifactId>
-        <version>2.40.0</version>
-    </dependency>  
-    
-    
-   <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-  <dependency>
-
-            <groupId>org.testng</groupId>
-
-            <artifactId>testng</artifactId>
-
-            <version>6.8.8</version>
-
-            <scope>compile</scope>
-
-        </dependency>
-
+   <dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.5.3</version>
+		</dependency>
 
     
-    <dependency>
+	<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+	<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.11</version>
+			<scope>compile</scope>
+		</dependency>
+
+
+		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
 			<version>3.16-beta2</version>
@@ -49,7 +44,11 @@
 			<artifactId>poi-ooxml</artifactId>
 			<version>3.9</version>
 		</dependency>
-	
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>3.9</version>
+		</dependency>
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-scratchpad</artifactId>
@@ -60,14 +59,53 @@
 			<artifactId>ooxml-schemas</artifactId>
 			<version>1.1</version>
 		</dependency>
-		
-
 
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>openxml4j</artifactId>
 			<version>1.0-beta</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>3.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-scratchpad</artifactId>
+			<version>3.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>ooxml-schemas</artifactId>
+			<version>1.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>openxml4j</artifactId>
+			<version>1.0-beta</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+		<dependency>
+			<groupId>com.relevantcodes</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>2.41.2</version>
+		</dependency>
+
 		
+    
+    
   </dependencies>
 </project>
