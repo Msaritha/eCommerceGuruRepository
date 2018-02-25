@@ -11,7 +11,7 @@
 	<test name="Guru99 eCommerce Test Cases">
 		<classes>
 			
-	
+			<class name="com.Guru99.qa.tests.MobilePageTest"/>
 			<class name="com.Guru99.qa.tests.HomePageTest"/>
 
 		</classes>

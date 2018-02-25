@@ -1,59 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="34796" started-at="2018-02-09T23:19:34Z" finished-at="2018-02-09T23:20:09Z">
+  <suite name="Command line suite" duration-ms="26497" started-at="2018-02-25T03:17:25Z" finished-at="2018-02-25T03:17:51Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="34796" started-at="2018-02-09T23:19:34Z" finished-at="2018-02-09T23:20:09Z">
+    <test name="Command line test" duration-ms="26497" started-at="2018-02-25T03:17:25Z" finished-at="2018-02-25T03:17:51Z">
       <class name="com.Guru99.qa.tests.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Guru99.qa.tests.HomePageTest@4157f54e]" name="setUp" is-config="true" duration-ms="5862" started-at="2018-02-09T15:19:47Z" finished-at="2018-02-09T15:19:53Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Guru99.qa.tests.HomePageTest@54a097cc]" name="setUp" is-config="true" duration-ms="5175" started-at="2018-02-24T19:17:39Z" finished-at="2018-02-24T19:17:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homepageTitleTest()[pri:0, instance:com.Guru99.qa.tests.HomePageTest@4157f54e]" name="homepageTitleTest" duration-ms="20" started-at="2018-02-09T15:19:53Z" finished-at="2018-02-09T15:19:53Z">
+        <test-method status="PASS" signature="homepageTitleTest()[pri:1, instance:com.Guru99.qa.tests.HomePageTest@54a097cc]" name="homepageTitleTest" duration-ms="35" started-at="2018-02-24T19:17:44Z" finished-at="2018-02-24T19:17:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Guru99.qa.tests.HomePageTest@4157f54e]" name="tearDown" is-config="true" duration-ms="1144" started-at="2018-02-09T15:19:53Z" finished-at="2018-02-09T15:19:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Guru99.qa.tests.HomePageTest@54a097cc]" name="tearDown" is-config="true" duration-ms="650" started-at="2018-02-24T19:17:44Z" finished-at="2018-02-24T19:17:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Guru99.qa.tests.HomePageTest@4157f54e]" name="setUp" is-config="true" duration-ms="5905" started-at="2018-02-09T15:19:54Z" finished-at="2018-02-09T15:20:00Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Guru99.qa.tests.HomePageTest@54a097cc]" name="setUp" is-config="true" duration-ms="5144" started-at="2018-02-24T19:17:45Z" finished-at="2018-02-24T19:17:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="logoGuru99Test()[pri:0, instance:com.Guru99.qa.tests.HomePageTest@4157f54e]" name="logoGuru99Test" duration-ms="66" started-at="2018-02-09T15:20:00Z" finished-at="2018-02-09T15:20:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoGuru99Test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Guru99.qa.tests.HomePageTest@4157f54e]" name="tearDown" is-config="true" duration-ms="1137" started-at="2018-02-09T15:20:00Z" finished-at="2018-02-09T15:20:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Guru99.qa.tests.HomePageTest@4157f54e]" name="setUp" is-config="true" duration-ms="5816" started-at="2018-02-09T15:20:01Z" finished-at="2018-02-09T15:20:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="mobileLinkTest()[pri:0, instance:com.Guru99.qa.tests.HomePageTest@4157f54e]" name="mobileLinkTest" duration-ms="792" started-at="2018-02-09T15:20:07Z" finished-at="2018-02-09T15:20:08Z">
+        <test-method status="PASS" signature="mobileLinkTest()[pri:3, instance:com.Guru99.qa.tests.HomePageTest@54a097cc]" name="mobileLinkTest" duration-ms="738" started-at="2018-02-24T19:17:50Z" finished-at="2018-02-24T19:17:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Guru99.qa.tests.HomePageTest@4157f54e]" name="tearDown" is-config="true" duration-ms="1264" started-at="2018-02-09T15:20:08Z" finished-at="2018-02-09T15:20:09Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Guru99.qa.tests.HomePageTest@54a097cc]" name="tearDown" is-config="true" duration-ms="661" started-at="2018-02-24T19:17:50Z" finished-at="2018-02-24T19:17:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Guru99.qa.tests.HomePageTest -->
       <class name="com.Guru99.qa.tests.MobilePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Guru99.qa.tests.MobilePageTest@6df97b55]" name="setUp" is-config="true" duration-ms="7055" started-at="2018-02-09T15:19:34Z" finished-at="2018-02-09T15:19:41Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Guru99.qa.tests.MobilePageTest@36f6e879]" name="setUp" is-config="true" duration-ms="8843" started-at="2018-02-24T19:17:25Z" finished-at="2018-02-24T19:17:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyIphoneAddToCartTest()[pri:0, instance:com.Guru99.qa.tests.MobilePageTest@6df97b55]" name="verifyIphoneAddToCartTest" duration-ms="4549" started-at="2018-02-09T15:19:41Z" finished-at="2018-02-09T15:19:46Z">
+        <test-method status="PASS" signature="verifyIphoneAddToCartTest()[pri:0, instance:com.Guru99.qa.tests.MobilePageTest@36f6e879]" name="verifyIphoneAddToCartTest" duration-ms="4557" started-at="2018-02-24T19:17:34Z" finished-at="2018-02-24T19:17:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIphoneAddToCartTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Guru99.qa.tests.MobilePageTest@6df97b55]" name="tearDown" is-config="true" duration-ms="1168" started-at="2018-02-09T15:19:46Z" finished-at="2018-02-09T15:19:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Guru99.qa.tests.MobilePageTest@36f6e879]" name="tearDown" is-config="true" duration-ms="656" started-at="2018-02-24T19:17:38Z" finished-at="2018-02-24T19:17:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

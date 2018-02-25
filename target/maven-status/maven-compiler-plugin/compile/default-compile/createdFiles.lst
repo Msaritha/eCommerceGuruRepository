@@ -1,5 +1,6 @@
 com\Guru99\qa\base\BaseTest.class
 com\Guru99\qa\pages\MobilePage.class
+com\qa\ExtentReportListner\ExtentReporterNG.class
 com\Guru99\qa\pages\ShoppingCartPage.class
 com\Guru99\qa\pages\ComparePage.class
 com\Guru99\qa\util\TestUtil.class
